@@ -1,0 +1,11 @@
+# Script name: Presentation file search
+# Created: 08/18/2020
+# Author: Jonathan Barrow
+# Purpose: To search a machine for any undesirable file types and create a csv
+# Path for output csv file
+$csvfile = "C:\Users\admin\Desktop\filesearch1.csv"
+
+$searchlocation = "C:\Users\Public"
+# Search
+Get-ChildItem -Path $searchlocation -Include *.mp3, *.wma, *.wmv, *.aac, *.avi, *.mp4, *.3gp, *.mkv -Recurse | Where-Object {
+($_.PSIContainer -eq $false) } | Select-Object Name, Directory, Length | Export-Csv $csvfile
