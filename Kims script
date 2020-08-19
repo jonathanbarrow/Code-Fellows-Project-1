@@ -3,4 +3,5 @@
 # Date of last revision: 8/19/2020
 # Description of purpose: Create a powershell script that opens to Google cloud dashboard 
 # Use Start-Process to open internet explore go to our google cloud console dashboard of RAM Consulting. 
-Start-Process -FilePath 'iexplore.exe' -ArgumentList
+Start-Process -FilePath 'iexplore.exe' -ArgumentList 'https://console.cloud.google.com/home/dashboard?project=powershellarz'
+
