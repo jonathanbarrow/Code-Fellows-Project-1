@@ -1,35 +1,47 @@
 Standard Operating Procedures (SOP): Compose thorough SOPs for each of the following:
 How will you backup and restore user data, critical infrastructure configurations and hosted data?
 We will create an automated bash and/or powershell script that will enable Keepe’s directories and files to be routinely updated. Although this will provide a holistic method to data backup and prevent data loss the more Keepe adds files/directories the more the script would need to be updated in order to represent the new root paths. 
-How will you securely dispose of sensitive data from storage media?
+See Flowchart here
+How will you securely dispose of sensitive data from storage media? 
 Sensitive data will need to be removed completely from any type of storage media before reuse. This includes wiping it from the storage device as well as from the host OS if the data is no longer needed. This will need to follow each workstation's individual internal storage optimizations based on data use. 
+See Flowchart here
 How will you perform the support engagements/interactions?
 Since Keepe does not have an assigned help desk technician for IT support challenges we advise it to create a series of technicians that can perform routine network maintenance. 
+See Form here
  
-What troubleshooting methodology will your technicians follow during support engagements?
-Technicians will use  Comptia T.S methodologies
+What troubleshooting methodology will your technicians follow during support engagements? 
+We will follow the 7 steps of the ITIL framework and methodologies. 
+See flowchart here
 How will user or department technology purchase requests be handled?
-Requests will be run by the operations admin that will get sign off by the CTO
+The HR department will notify the supervisor of the new hire
+The employee’s supervisor will notify IT of the technology the new employee is going to need
+IT Manager sends the request to the CTO for approval
+IT either prepares refurbished items or purchases the new hardware at the expense of the employee’s department.
+See form here
 How will technology needs be handled for employees being onboarded?
 During HRs onboarding of employees, HR will submit a request for resources to the employees manager. The manager will work with the employee to determine employee needs.
+See form here
  
 How will technology needs be handled for employees being terminated?
 The IT department will be notified of employees termination by HR
 Employees' network accounts will be completely removed from the network and audited for any potential risk to the company.
 All hardware will be audited and refurbished for use by another employee
+See form here.
 How will remote, offsite support engagements take place?
 All remote connections to the network must go through the company’s VPN to ensure safety. 
 Users will only be permitted to download software related to their work responsibilities.
 Approval is needed before users can download and access unapproved software or access unapproved websites. 
+See flowchart here.
 How will you secure Windows 10 endpoint workstations from data loss and malware threats?
 Data on workstations may be backed up to the company’s server, but will go through a thorough full scan before they’re permanently stored on the server. 
-Workstations must have company approved antivirus / anti-malware installed and updated. 
+Workstations must have company approved antivirus / anti-malware installed and updated. See flowchart here.
  
 How will you administer and support Windows systems?
-IT department will access the control panel, and access the User Accounts options.
-How will your company enhance the network’s usability and security?
-PowerShellarz Consulting will perform an auditing and mapping of the network. PowerShellarz will create a Bash script designed to enhance the security of the network. 
-How will you support company cloud services?
-PowerShellarz will introduce cloud as a viable option and perform basic training for employees to access storage and databases. We will help them make the best decision based on cost for their company needs. 
-
-https://drive.google.com/file/d/1-CYILwIQw22omzfG6_i7jpJLNZ_B0G4X/view
+We will be responsible for installing and configuring Windows software, monitoring systems performance and troubleshooting any issues that may come up.  
+See flowchart here
+How will your company enhance the network’s usability and security? 
+We will perform an auditing and mapping of the network. We will create a Bash script designed to enhance the security of the network. 
+See flowchart here
+How will you support company cloud services? 
+We will create a cloud subscription designed specifically for Keepe’s app. We will train Keepe’s employees with how to use the cloud based subscription 
+See flowchart here
